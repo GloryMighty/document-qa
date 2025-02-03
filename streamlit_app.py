@@ -1,5 +1,5 @@
 import streamlit as st
-from google.cloud import storage
+from google.cloud.storage import storage
 from google.oauth2 import service_account
 from api_delete import CloudStorageDelete
 from api_upload import CloudStorageUpload   
