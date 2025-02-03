@@ -1,2 +1,36 @@
-streamlit
-openai
+# Core dependencies
+streamlit>=1.32.0
+numpy==1.24.3
+pandas==2.0.3
+
+# Google Cloud and API
+google-cloud-storage>=2.14.0
+google-generativeai>=0.3.2
+protobuf>=4.25.2
+
+# Environment and configuration
+python-dotenv>=1.0.1
+
+# Wheel is required for App Engine
+wheel==0.41.2
+
+# Additional dependencies
+Pillow>=10.0.0
+
+# Google Cloud dependencies
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Comments explain package purposes:
+# streamlit: Main web framework and UI
+# numpy: Numerical computations, required by pandas
+# pandas: Data manipulation and analysis
+# google-auth: Google Cloud authentication
+# PyJWT: JWT token handling for auth
+# requests: HTTP client for API calls
+# urllib3: Required by requests
+# google-cloud-storage: Cloud Storage operations
+# google-generativeai: Gemini AI API client
+# protobuf: Protocol buffers for Google APIs
+# python-dotenv: Environment variable management
